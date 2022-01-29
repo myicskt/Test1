@@ -19,7 +19,7 @@ public class TestOne {
 		driver.findElement(By.name("allbox")).click();
 		
 		WebElement checkboxall = driver.findElement(By.name("allbox"));
-		if (checkboxall.isSelected() == false) {
+		if (checkboxall.isSelected() == true) {
 			System.out.println("Toggle all  is checked ");
 		}
 		
